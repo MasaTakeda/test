@@ -8,14 +8,14 @@ body {
 }
 
 #container {
-  width: 510px;
-  margin: 10px auto;
+  width: 460px;
+  margin: 5px auto;
 }
 
 #board {
   list-style: none;
-  margin: 0 0 64px;
-  padding: 44px;
+  margin: 0 0 32px;
+  padding: 20px;
   background: #fff;
   border-radius: 12px;
   display: flex;
@@ -31,15 +31,15 @@ body {
   border-radius: 12px;
   line-height: 120px;
   text-align: center;
-  box-shadow: 0 12px 0 #0088cc;
+  box-shadow: 0 5px 0 #0088cc;
 }
 
 #board li.pressed {
   /* background: #ccc; */
   background: rgb(245, 241, 241);
   box-shadow: none;
-  margin-top: 20px;
-  margin-bottom: 1px;
+  margin-top: 15px;
+  margin-bottom: 5px;
 }
 
 #timer {
@@ -52,13 +52,13 @@ body {
   cursor: pointer;
   user-select: none;
   background: #f44336;
-  padding: 12px;
+  padding: 10px;
   border-radius: 12px;
   text-align: center;
-  box-shadow: 0 4px 0 #d1483e;
+  box-shadow: 0 10px 0 #d1483e;
 }
 
 #btn:active {
-  margin-top: 20px;
+  margin-top: 40px;
   box-shadow: none;
 }
